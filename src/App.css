@@ -1,0 +1,29 @@
+:root {
+  /*Backgrounds*/
+  --bg-main: #0a0913;
+  --bg-secondary: #131122;
+  --bg-card: #1d1936;
+  --bg-card-hover: #282442;
+  --bg-deep-blue: #020b36;
+  --bg-legendary-item: #230745;
+
+  /* Text, frames & accents */
+  --text-title: #b3e3f4;
+  --text-explanation: #d6fffb;
+  --color-frame: #e3e3ff;
+  --border-subtle: #282442;
+  --border-highlight: #e3e3ff;
+}
+
+body {
+  background-color: var(--bg-main);
+}
+
+.head-title {
+  background-color: var(--bg-secondary);
+  color: var(--text-title);
+}
+
+.small-text {
+  color: var(--text-explanation);
+}

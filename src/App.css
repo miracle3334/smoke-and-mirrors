@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--bg-main);
+  padding: 2%;
 }
 
 .head-title {
@@ -27,3 +28,26 @@ body {
 .small-text {
   color: var(--text-explanation);
 }
+
+.item-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--color-frame);
+  padding: 1%;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*A background using --bg-card.
+A thin border using --color-frame.
+Some internal spacing (padding).
+Rounded corners (border-radius).
+A reasonable width so it doesn't stretch across the entire screen. */

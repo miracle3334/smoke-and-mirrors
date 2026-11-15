@@ -11,16 +11,17 @@ function App() {
       <article className="item-card">
         <div className="item-visuals">
           <div className="food-image-container">
-              <div className="food-image">🍢</div>
+            <div className="food-image">🍢</div>
+            
+            <ul>
+              <li className="food-category">Category: Food</li>
+              <li className="rarity">Rarity: Common</li>
+            </ul>
           </div>
 
           <section>
-              <h2 className="food-name">Dragon Skewer</h2>
-              <ul>
-                <li className="food-category">Category: Food</li>
-                <li className="rarity">Rarity: Common</li>
-              </ul>
-          </section> 
+            <h2 className="food-name">Dragon Skewer</h2>
+          </section>
         </div>
       </article>
     </main>

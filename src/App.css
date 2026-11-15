@@ -46,6 +46,16 @@ body {
   margin: 0;
 }
 
+.item-visuals {
+  display: flex;
+  gap: 16px;
+}
+
+.food-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /*A background using --bg-card.
 A thin border using --color-frame.
 Some internal spacing (padding).

@@ -20,7 +20,12 @@ function App() {
           </div>
 
           <section>
-            <h2 className="food-name">Dragon Skewer</h2>
+            <h2 className="food-name">Earth Dragon Skewer</h2>
+            <p className="item-description">Prepared from dragon meat, this skewer is said to toughen the skin, granting its consumer a fraction of a dragon's natural resilience.</p>
+          </section>
+
+          <section>
+            <p className="price">57 Gold</p>
           </section>
         </div>
       </article>

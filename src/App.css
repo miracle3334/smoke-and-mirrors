@@ -13,6 +13,11 @@
   --color-frame: #e3e3ff;
   --border-subtle: #282442;
   --border-highlight: #e3e3ff;
+
+  /*Fonts*/
+  --font-title: 'Press Start 2P', cursive;
+  --font-heading: 'Jersey 15', sans-serif;
+  --font-body: 'Oldenburg', serif;
 }
 
 body {
@@ -21,12 +26,15 @@ body {
 }
 
 .head-title {
-  background-color: var(--bg-secondary);
   color: var(--text-title);
+  font-family: var(--font-title);
+  text-align: center;
 }
 
 .small-text {
   color: var(--text-explanation);
+  font-family: var(--font-heading);
+  text-align: center;
 }
 
 .item-card {
@@ -63,23 +71,38 @@ body {
 
 .food-name {
   color: var(--text-title);
+  font-family: var(--font-heading);
 }
 
 .item-description {
   color: var(--text-explanation);
+  font-family: var(--font-body);
 }
 
 .food-category {
   color: var(--text-explanation);
   padding: 10px;
+  font-family: var(--font-body);
+}
+
+.food-category span {
+  font-family: var(--font-heading);
+  font-size: larger;
 }
 
 .rarity {
   color: var(--text-explanation);
   padding: 10px;
+  font-family: var(--font-body);
+}
+
+.rarity span {
+  font-family: var(--font-heading);
+  font-size: larger;
 }
 
 .price {
   color: var(--text-explanation);
   padding: 30px;
+  font-family: var(--font-body);
 }

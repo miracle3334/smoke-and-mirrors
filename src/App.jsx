@@ -14,8 +14,12 @@ function App() {
             <div className="food-image">🍢</div>
             
             <ul>
-              <li className="food-category">Category: Food</li>
-              <li className="rarity">Rarity: Common</li>
+              <li className="food-category">
+                <span>Category:</span> Food
+              </li>
+              <li className="rarity">
+                <span>Rarity:</span> Common
+              </li>
             </ul>
           </div>
 
